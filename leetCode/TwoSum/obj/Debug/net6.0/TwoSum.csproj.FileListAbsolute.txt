@@ -1,0 +1,15 @@
+/Users/axel/Desktop/katas/leetCode/TwoSum/bin/Debug/net6.0/TwoSum
+/Users/axel/Desktop/katas/leetCode/TwoSum/bin/Debug/net6.0/TwoSum.deps.json
+/Users/axel/Desktop/katas/leetCode/TwoSum/bin/Debug/net6.0/TwoSum.runtimeconfig.json
+/Users/axel/Desktop/katas/leetCode/TwoSum/bin/Debug/net6.0/TwoSum.dll
+/Users/axel/Desktop/katas/leetCode/TwoSum/bin/Debug/net6.0/TwoSum.pdb
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/TwoSum.csproj.AssemblyReference.cache
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/TwoSum.GeneratedMSBuildEditorConfig.editorconfig
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/TwoSum.AssemblyInfoInputs.cache
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/TwoSum.AssemblyInfo.cs
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/TwoSum.csproj.CoreCompileInputs.cache
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/TwoSum.dll
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/refint/TwoSum.dll
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/TwoSum.pdb
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/TwoSum.genruntimeconfig.cache
+/Users/axel/Desktop/katas/leetCode/TwoSum/obj/Debug/net6.0/ref/TwoSum.dll
