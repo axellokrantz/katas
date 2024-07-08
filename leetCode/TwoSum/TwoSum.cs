@@ -9,16 +9,20 @@ public class Solution
 
         for (int i = 0; i < nums.Length; i++)
         {
-            // compliment = 7, dict[0] = {7, 0}
-            // compliment = 2, dict[1] = {2, 1}
-            compliment = Math.Abs(nums[i] - target);
-            if(dict.ContainsKey(nums[i]))
+            // compliment = 7, dict[0] = {7 (answer), 0(index)}
+            // compliment = 2, dict[1] = {2 (answer), 1(index)}
+            // [0,1]
+            compliment = target - nums[i];
+            if(dict.ContainsKey(target - compliment))
             {
-                result[0] = dict[compliment];
+                result[0] = dict[target - compliment];
                 result[1] = i;
                 return result;
             }
-            dict.Add(compliment, i);
+            if(!dict.ContainsKey(compliment))
+            {
+                dict.Add(compliment, i);
+            }
         }
         return result;
     }
