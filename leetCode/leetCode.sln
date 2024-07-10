@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "Contai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{B41C58A6-22F4-45C1-9D93-632F4C73FE6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsAnagram", "IsAnagram\IsAnagram.csproj", "{20199492-EF78-42BF-A002-15994F0FB7C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "GroupAnagrams\GroupAnagrams.csproj", "{B0062F17-DA16-4864-A68F-C1AD8BEA204C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,5 +27,13 @@ Global
 		{B41C58A6-22F4-45C1-9D93-632F4C73FE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B41C58A6-22F4-45C1-9D93-632F4C73FE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B41C58A6-22F4-45C1-9D93-632F4C73FE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20199492-EF78-42BF-A002-15994F0FB7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20199492-EF78-42BF-A002-15994F0FB7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20199492-EF78-42BF-A002-15994F0FB7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20199492-EF78-42BF-A002-15994F0FB7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0062F17-DA16-4864-A68F-C1AD8BEA204C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0062F17-DA16-4864-A68F-C1AD8BEA204C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0062F17-DA16-4864-A68F-C1AD8BEA204C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0062F17-DA16-4864-A68F-C1AD8BEA204C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
