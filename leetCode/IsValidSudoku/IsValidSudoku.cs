@@ -6,6 +6,7 @@ public class Solution
         List<HashSet<int>> rows = new List<HashSet<int>>();
         List<HashSet<int>> columns = new List<HashSet<int>>();
         
+        
         for (int i = 0; i < board.Length; i++)
         {
             for (int j = 0; j < board[i].Length; j++)
@@ -44,14 +45,41 @@ public class Solution
             }
         }
 
+        for (int rowStart = 0; rowStart < 9; rowStart += 3)
+        {
+            for (int colStart = 0; colStart < 9; colStart += 3)
+            {
+                HashSet<int> subSet = new HashSet<int>();
+                for (int i = rowStart; i < rowStart + 3; i++)
+                {
+                    for (int j = colStart; j < colStart + 3; j++)
+                    {
+                        if (board[i][j] != '.')
+                        {
+                            if (!subSet.Contains(board[i][j]))
+                            {
+                                subSet.Add(board[i][j]);
+                            }
+                            else
+                            {
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
         return true;
     }
 
     static void Main(string[] args)
     {
+
+    
         char[][] board = 
         {
-            new char[] {'5', '3', '6', '.', '7', '.', '.', '.', '.'},
+            new char[] {'5', '3', '4', '.', '7', '2', '.', '.', '.'},
             new char[] {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
             new char[] {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
             new char[] {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
