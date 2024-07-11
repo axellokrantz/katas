@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsAnagram", "IsAnagram\IsAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "GroupAnagrams\GroupAnagrams.csproj", "{B0062F17-DA16-4864-A68F-C1AD8BEA204C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsValidSudoku", "IsValidSudoku\IsValidSudoku.csproj", "{3CA7CDC6-47AA-448C-80A2-7D519BCF74AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +37,9 @@ Global
 		{B0062F17-DA16-4864-A68F-C1AD8BEA204C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0062F17-DA16-4864-A68F-C1AD8BEA204C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0062F17-DA16-4864-A68F-C1AD8BEA204C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA7CDC6-47AA-448C-80A2-7D519BCF74AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA7CDC6-47AA-448C-80A2-7D519BCF74AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA7CDC6-47AA-448C-80A2-7D519BCF74AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA7CDC6-47AA-448C-80A2-7D519BCF74AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
