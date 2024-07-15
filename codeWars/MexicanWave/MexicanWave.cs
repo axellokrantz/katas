@@ -1,6 +1,4 @@
-﻿
-
-namespace CodeWars
+﻿namespace CodeWars
 {
     public class Kata
     {
@@ -21,11 +19,9 @@ namespace CodeWars
                     char[] tempArr = str.ToCharArray();
                     tempChar = char.ToUpper(tempChar);
                     tempArr[i] = tempChar;
-
                     result.Add(new string(tempArr));
                 }  
             }
-
             return result;
         }
 

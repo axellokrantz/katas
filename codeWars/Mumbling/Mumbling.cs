@@ -1,6 +1,4 @@
-﻿using System;
-
-public class Accumul
+﻿public class Accumul
 {
     public static String Accum(string s)
     {
