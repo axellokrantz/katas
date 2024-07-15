@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿
 
 namespace CodeWars
 {
@@ -6,19 +6,25 @@ namespace CodeWars
     {
         public List<string> wave(string str)
         {
-            int waveIndex = 0;
             List<string> result = new();
+
+            if(str.Length == 0 || str == null)
+            {
+                return result;
+            }
 
             for (int i = 0; i < str.Length; i++)
             {
-                if(str[0] != ' ')
+                if(str[i] != ' ')
                 {
+                    char tempChar = str[i];
+                    char[] tempArr = str.ToCharArray();
+                    tempChar = char.ToUpper(tempChar);
+                    tempArr[i] = tempChar;
 
-                    char waver = str[waveIndex];
-                    waver = char.ToUpper(waver);
-                }
+                    result.Add(new string(tempArr));
+                }  
             }
-
 
             return result;
         }
@@ -26,7 +32,7 @@ namespace CodeWars
         static void Main(string[] args)
         {
             Kata k = new();
-            Console.WriteLine(k.wave(""));
+            Console.WriteLine(k.wave("awd aw"));
         }
     }
 }
