@@ -9,7 +9,6 @@ public class LineNumbering
 
     static void Main(string[] args)
     {
-        // "1: a"
         List<string> list = new() {"a", "b"};
         list = Number(list);
         foreach (var item in list)
