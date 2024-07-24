@@ -5,7 +5,6 @@
         int maxProfit = 0;
         int start = 0;
         int end = 1;
-       
         while(end < prices.Length)
         {
             if(prices[start] > prices[end])
