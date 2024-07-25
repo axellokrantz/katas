@@ -1,9 +1,6 @@
 ﻿public class Solution
 {
-    // 1,2,3,4
-    // ^ 
-    // i 
-    //   j
+
     public int[] ProductExceptSelf(int[] nums)
     {
         int[] result = new int[nums.Length];
