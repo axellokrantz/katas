@@ -17,14 +17,13 @@
             }
         }
 
-        var sortedByFreqeuency = dict.OrderBy(x => x.Value).ToList();
+        var sortedByFreqeuency = dict.OrderByDescending(x => x.Value).ToList();
 
         for (int i = 0; i < k; i++)
         {
-            
+            result[i] = sortedByFreqeuency[i].Key;
         }
-
-        return [];
+        return result;
     }
 
     static void Main()
